@@ -1,0 +1,20 @@
+{
+  "name": "internet-speed-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to display internet speed on each tab.",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "internet-speed-extension": "file:",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.0.0"
+  }
+}

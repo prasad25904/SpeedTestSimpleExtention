@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Internet Speed Test Extension",
+  "version": "1.0",
+  "description": "Display internet speed on the top-right corner of each tab.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab"]
+}
